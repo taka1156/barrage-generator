@@ -7,7 +7,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')!).render(
 <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Navigation />
       <Routes>
         {router.map((page, i) => (<Route key={`route_${i}`} {...page} />))}
