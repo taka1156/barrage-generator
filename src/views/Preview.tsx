@@ -1,12 +1,12 @@
 export const Preview: React.FC = () => {
-  const balletSpeedList = [25, 50, 75, 100];
+  const balletSpeedList = [1, 2, 3, 4];
   const balletMsgs = [
     'wwww',
     '8888',
     '★―＝≡ ☆―＝≡ ★―＝≡ ☆―＝≡ ★―＝≡ ☆―＝≡',
     '★･ﾟ･｡･ﾟ ☆･ﾟ･｡･ﾟ',
     '✪═━┈┈ ✰═━┈┈✪═━┈┈ ✰═━┈┈✪═━┈┈ ✰═━┈┈',
-    '▂▃▅▆▇██▇▆▅▃▂▂▃▅▆▇██▇▆▅▃▂▂▃▅▆▇██▇▆▅▃▂▂▃▅▆▇██▇▆▅▃▂',
+    '▂▃▅▆▇██▇▆▅▃▂▂▃▅▆▇██▇▆▅▃▂▂▃▅▆▇██▇▆▅▃▂',
   ];
   const balletConfig = {
     max: 30,
